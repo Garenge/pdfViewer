@@ -56,6 +56,8 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
             // 这个不喜欢, 不高兴写了
      
         4.  见GTMobile
+            我觉得和上面的2 很类似
+     
             UIDocumentInteractionControllerDelegate
             @property (nonatomic, retain) UIDocumentInteractionController *documentInteraction;
             首先导入QuickLook.framework支持库
@@ -86,7 +88,6 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
                               @"documentInteraction加载",
                               @"DocViewer-master加载资源"
                             ]];
-    
     [self setUpTableView];
 }
 
