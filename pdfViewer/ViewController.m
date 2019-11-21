@@ -158,7 +158,8 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
         case 1: {
             QLPreviewController *QLPVC = [[QLPreviewController alloc] init];
             QLPVC.dataSource = self;
-            [self presentViewController:QLPVC animated:YES completion:nil];
+//            [self presentViewController:QLPVC animated:YES completion:nil];
+            [self.navigationController pushViewController:QLPVC animated:YES];
         }
             break;
         case 2: {
